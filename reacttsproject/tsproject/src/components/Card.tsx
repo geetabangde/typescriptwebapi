@@ -14,7 +14,6 @@ export function Card({ title, children, description, imageUrl, footer }: CardPro
             <p>{description}</p>
             <img src={imageUrl} alt={title} />
             {footer}
-        
         </>
     )
     
