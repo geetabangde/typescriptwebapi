@@ -17,11 +17,10 @@ function AddTodo() {
 
   return (
     <>
-          {/* from add todo */}
-          <from className="add-todo" onSubmit={addTodoHandler}>
+          <form className="add-todo" onSubmit={addTodoHandler}>
               <input type="text" placeholder="Add a new todo" value={input} onChange={(e)=>setInput(e.target.value)}/>
             <button type="submit">Add</button>
-          </from>
+          </form>
     </>
   )
 }
